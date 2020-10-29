@@ -1,0 +1,100 @@
+.adventure-form{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    border-color: #004ddb;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.582);
+    position: relative;
+    top: -3vh;
+}
+
+.the-adventure-form{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #004ddb;
+    padding: 25px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.adventure-input{
+    border-color: aliceblue;
+    border-radius: 5px;
+    padding: 4px;
+    width: 200px;
+    background: transparent;
+    color: aliceblue;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+}
+
+.adventure-form-selectables{
+    background-color: #004ddb;
+}
+
+.destination{
+    display: flex;
+    flex-direction: column;
+}
+
+.min-price{
+    display: flex;
+    flex-direction: column;
+}
+
+.max-price{
+    display: flex;
+    flex-direction: column;
+}
+
+.adventure-form-button{
+    border-color: #0441b4;
+    background-color: #0441b4;
+    color: white;
+}
+
+@media screen and (max-width: 900px){
+    .adventure-form{
+        position: static;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #004ddb;
+        align-items: center;
+    }
+    .the-adventure-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+        padding: 0
+    }
+    .destination{
+        margin-top: 20px
+    }
+    .adventure-input{
+        width: 300px;
+        margin-bottom: 5px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .adventure-form-button{
+        margin-top: 20px;
+        margin-bottom: 10px;;
+        border-color: #0441b4;
+        background-color: #0441b4;
+        color: white;
+        width: 200px;
+        padding: 10px;
+        border-radius: 50px;
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,100 @@
+.hotelform{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    border-color: #004ddb;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.582);
+    position: relative;
+    top: -3vh;
+}
+
+.thehotelform{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #004ddb;
+    padding: 25px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.checkin{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout{
+    display: flex;
+    flex-direction: column;
+}
+
+.adults{
+    display: flex;
+    flex-direction: column;
+}
+
+.children{
+    display: flex;
+    flex-direction: column;
+}
+
+.hotelinput {
+    border-color: aliceblue;
+    border-radius: 10px;
+    padding: 4px;
+    width: 200px;
+    background: transparent;
+}
+
+.hotelformbutton{
+    border-color: #0441b4;
+    background-color: #0441b4;
+    color: white;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 1000px){
+    .hotelform{
+        position: static;
+        display: flex;
+        flex-flow: column;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: #004ddb;
+        margin-bottom: 20px;
+        
+    }
+    .thehotelform{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0
+    } 
+
+    .hotelinput{
+        width: 300px;
+        margin-bottom: 5px;
+        color: white;
+    }
+
+    .hotelformbutton{
+        margin-top: 20px;
+        margin-bottom: 10px;;
+        border-color: #0441b4;
+        background-color: #0441b4;
+        color: white;
+        width: 200px;
+        padding: 10px;
+        border-radius: 50px;
+        box-shadow: none;
+    }
+}

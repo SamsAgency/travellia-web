@@ -1,0 +1,149 @@
+.adventure-banner{
+    background-image: linear-gradient(to bottom,  rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.116)), url(../../Assets/norway.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -7.9vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adventure-banner-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.adventure-banner-left {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Dosis', sans-serif;
+    color: #f4f8fb;
+}
+
+.adventure-banner-intro{
+    font-family: 'Dosis', sans-serif;
+    font-size: 70px;
+    line-height: 0%;
+}
+
+.adventure-banner-paragraph{
+    font-size: 18px;
+}
+
+.adventure-banner-button{
+    /* width: 120px; */
+    font-size: 18px;
+    line-height: 0%;
+    padding: 20px;
+    color: white;
+    border-color: white;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.adventure-banner-button:hover{
+    background-color: #004ddb;
+    border-color: #004ddb;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.795);
+    cursor: pointer;
+}
+
+.adventure-banner-right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.adventure-image-one {
+    background-image: url(../../Assets/safari.jpg);
+    width: 70%;
+    height: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px black;
+}
+
+.adventure-image-one:hover {
+    width: 75%;
+    cursor: pointer;
+    box-shadow: 4px 3px 10px black;
+}
+
+.adventure-image-two {
+    background-image: url(../../Assets/maldives.jpg);
+    width: 70%;
+    height: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px black;
+}
+
+.adventure-image-two:hover {
+    width: 75%;
+    cursor: pointer;
+    box-shadow: 4px 3px 10px black;
+}
+
+.adventure-image-three {
+    background-image: url(../../Assets/venice.jpg);
+    width: 70%;
+    height: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.829);
+}
+
+.adventure-image-three:hover {
+    width: 75%;
+    cursor: pointer;
+    box-shadow: 4px 3px 10px black;
+}
+
+.adventure-banner-image-text{
+    position: relative;
+    color: white;
+    top: 80%;
+    font: 18px;
+    background-color: rgba(0, 0, 0, 0.532);
+}
+
+@media screen and (max-width: 900px){
+    .adventure-banner{
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .adventure-banner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.425);
+    }
+    .adventure-banner-right{
+        display: none;
+    }
+    .adventure-banner-intro{
+        align-self: center;
+        font-size: 33px;
+        width: 100%;
+    }
+}

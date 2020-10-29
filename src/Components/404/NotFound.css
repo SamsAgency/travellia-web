@@ -1,0 +1,31 @@
+.not-found{
+    height: 100vh;
+    background-image: url(../../Assets/maldives.jpg);
+    margin-bottom: -20px;
+    margin-top: -7.9vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.not-found-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-o-four{
+    line-height: 0%;
+    font-size: 400px;
+    position: relative;
+    top: 20vh;
+    color: #004ddb;
+    filter: -20px -20px 50px 2px inset, 0 0 20px 2px rgba(0, 0, 0, 0.808);
+}
+
+.not-found-paragraph{
+    position: relative;
+    top: 10vh;
+}

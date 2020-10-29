@@ -1,0 +1,36 @@
+.Navbar{
+    background-color: transparent;
+    margin-top: auto;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 10px;
+    padding-left: 10px;
+    z-index: 5;
+    position: relative;
+    top: 10px;
+}
+
+.logo {
+    display: flex;
+    width: 40%;
+    justify-content: flex-start;
+    color: white;
+    text-decoration: none;
+}
+
+.lists {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.thelist {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}

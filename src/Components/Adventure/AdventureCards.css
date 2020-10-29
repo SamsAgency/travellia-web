@@ -1,0 +1,35 @@
+.adventure-cards{
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+
+.the-adventure-card-image{
+    margin: 20px;
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.795);
+}
+
+.adventure-image-cards-rows{
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+@media screen and (max-width: 900px){
+    .the-adventure-card-image{
+        width: 100%
+    }
+    .adventure-image-cards-rows{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

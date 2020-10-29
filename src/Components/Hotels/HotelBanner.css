@@ -1,0 +1,167 @@
+.hotelbanner{
+    width: 100%;
+    z-index: -1;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.116) ), url(../../Assets/sw2.jpg);
+    height: 100vh;
+    background-position: center;
+    margin-top: -7.9vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.hotelbannercontent{
+    position: relative;
+    top: 5.1vh;
+    width: 80%;
+    margin: auto;
+    height: 95vh;
+    display: flex;
+    flex-wrap: wrap !important;
+    color: white;
+}
+
+.hotelbannercolumn1{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+
+.hotelbannerintro {
+    font-family: 'Dosis', sans-serif;
+    font-size: 70px;
+    line-height: 0%;
+}
+
+.hotelbannerparagraph {
+    font-size: 18px;
+}
+
+.hotelbannerbutton{
+    width: 120px;
+    font-size: 18px;
+    line-height: 0%;
+    padding: 20px;
+    color: white;
+    border-color: white;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.hotelbannerbutton:hover{
+    background-color: #004ddb;
+    border-color: #004ddb;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.795);
+    cursor: pointer;
+}
+
+.hotelbannercolumn2{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hotelbannerimage1 {
+    background-image: url(../../Assets/hotel1.jpg);
+    width: 70%;
+    height: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px black;
+}
+
+.hotelbannerimage1:hover {
+    width: 75%;
+    cursor: pointer;
+    box-shadow: 4px 3px 10px black;
+}
+
+.hotelbannerimage2 {
+    background-image: url(../../Assets/hotel2.jpg);
+    width: 70%;
+    height: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px black;
+}
+
+.hotelbannerimage2:hover {
+    width: 75%;
+    cursor: pointer;
+    box-shadow: 4px 3px 10px black;
+}
+
+.hotelbannerimage3 {
+    background-image: url(../../Assets/hotel.jpg);
+    width: 70%;
+    height: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.829);
+}
+
+.hotelbannerimage3:hover {
+    width: 75%;
+    cursor: pointer;
+    box-shadow: 4px 3px 10px black;
+}
+
+.hotelbannerimagetext{
+    position: relative;
+    top: 80%;
+    font: 18px;
+    background-color: rgba(0, 0, 0, 0.532);
+}
+
+.hotelsocialmedia {
+    display: flex;
+    margin: auto;
+    width: 30%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 720px){
+    .hotelbanner{
+        background-position: fixed;
+        background-size: cover;
+    }
+    
+    .hotelbannercolumn1{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+    }
+    .hotelbannerintro{
+        font-family: 'Dosis', sans-serif;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 0%;
+    }
+    .hotelbannerparagraph {
+        font-size: 18px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+
+    .hotelbannercolumn2{
+        display: none;
+    }
+}

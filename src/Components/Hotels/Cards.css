@@ -1,0 +1,98 @@
+.hotelcards{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.tophotelcardscontent {
+    display: flex;
+    justify-content: space-between;
+    line-height: 0%;
+}
+
+.hotelcardsheader{
+    font-size: 50px;
+    font-family: 'Bad Script', cursive;
+    color: #004ddb;
+    line-height: 0%;
+    filter: drop-shadow(0px 2px 7px rgba(0, 0, 0, 0.336));
+}
+
+.hotelcardsbutton{
+    width: 200px;
+    font-size: 18px;
+    line-height: 0%;
+    padding: 20px;
+    color: #004ddb;
+    border-color: #004ddb;
+    border-radius: 20px;
+    background: transparent;
+    margin-left: 10px;
+}
+
+.hotelcardsbutton:hover{
+    background-color: #004ddb;
+    border-color: #004ddb;
+    color: white;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.795);
+    cursor: pointer;
+}
+
+.theimagecards{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+
+.images{
+    margin: 20px;
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.795);
+}
+
+.images:hover {
+    width: 455px;
+    border-radius: 7px;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.795);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 720px){
+    .hotelcards{
+        height: 100vh;
+    }
+    .hotelcardsheader{
+        font-family: Dosis, sans-serif;
+        font-stretch: extra-condensed;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .tophotelcardscontent{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .tophotelcardscontentparagraph{
+        font-size: 15px
+    }
+    .theimagecards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .images{
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    .images:hover{
+        width: 300px
+    }
+}

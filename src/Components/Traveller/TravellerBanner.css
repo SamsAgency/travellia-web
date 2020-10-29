@@ -1,0 +1,67 @@
+.traveller-banner{
+    width: 100%;
+    z-index: -1;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.116) ), url(../../Assets/cruise\ ship\ \(5\).jpg);
+    height: 100vh;
+    background-position: center;
+    margin-top: -7.9vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.traveller-banner-content{
+    background-color: rgba(0, 0, 0, 0.418);
+    padding: 20px;
+}
+
+
+.travelbannerimage1 {
+    background-image: url(../../Assets/cruise\ ship\ \(4\).jpg);
+    width: 70%;
+    height: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px black;
+}
+
+.travelbannerimage1:hover {
+    width: 75%;
+    cursor: pointer;
+    box-shadow: 4px 3px 10px black;
+}
+
+.travelbannerimage2 {
+    background-image: url(../../Assets/privatejet.jpg);
+    width: 70%;
+    height: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px black;
+}
+
+.travelbannerimage2:hover {
+    width: 75%;
+    cursor: pointer;
+    box-shadow: 4px 3px 10px black;
+}
+
+.travelbannerimage3 {
+    background-image: url(../../Assets/bus.jpg);
+    width: 70%;
+    height: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.829);
+}
+
+.travelbannerimage3:hover {
+    width: 75%;
+    cursor: pointer;
+    box-shadow: 4px 3px 10px black;
+}

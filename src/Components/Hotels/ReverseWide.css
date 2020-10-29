@@ -1,0 +1,46 @@
+.reversewidesection{
+    width: 100%;
+    height: 55vh;
+    background-image: url(../../Assets/hotel2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.reversewiderow {
+    width: 85%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reversewidecolumn1{
+    height: 100%;
+    margin: auto;
+    width: 30%;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    /* background-color: #004ddb; */
+    background-image: linear-gradient(to bottom, #004ddb, #004ddbfb);
+    color: white;
+    max-height: 100% !important;
+}
+
+.reversewidecolumn2{
+    width: 70%;
+}
+
+@media screen and (max-width: 900px){
+    .reversewidesection{
+        height: 70vh;
+    }
+    .reversewidecolumn1{
+        width: 100%;
+        height: 500px;
+        margin: none;
+    }
+}
+
